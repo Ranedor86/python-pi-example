@@ -1,2 +1,6 @@
 #!/usr/bin/python3
-print ("Hello World, you poopy poop")
+
+def main (msg):
+    print(msg)
+
+main("Hello World, you poopy poop")
