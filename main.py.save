@@ -1,0 +1,12 @@
+
+!/usr/bin/python3
+
+def main (msg):
+<<<<<<< HEAD
+    // Added different comment because I can
+=======
+    // Print a message
+>>>>>>> refs/remotes/origin/master
+    print(msg)
+
+main("Hello World, you poopy poop")

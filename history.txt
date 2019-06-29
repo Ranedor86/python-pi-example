@@ -1,0 +1,516 @@
+    1  ./VBoxLinuxAdditions.run
+    2  sudo ./VBoxLinuxAdditions.run
+    3  reboot
+    4  sudo apt-get install unity-tweak-tool
+    5  reboot
+    6  unity-tweak-tool
+    7  sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf
+    8  unity-tweak-tool
+    9  pwd
+   10  cd /usr/share
+   11  pwd
+   12  cd /usr
+   13  cd lib
+   14  cd /home/nick
+   15  cd ~
+   16  cd /usr/share/applications
+   17  cd ~/Documents
+   18  cd ~
+   19  cd ..?
+   20  cd ../
+   21  pwd
+   22  cd ./Documents
+   23  cd /usr/share
+   24  cd ../
+   25  ls
+   26  ls -l
+   27  edf
+   28  ls -r
+   29  ls
+   30  ls -p
+   31  ls -s
+   32  cd /usr/share/applications
+   33  ls
+   34  cd ~
+   35  ls /usr/share/applications/
+   36  clear
+   37  ls ~/Documents
+   38  pwd
+   39  ls
+   40  ls --help
+   41  clear
+   42  cd /etc
+   43  l
+   44  sudo su
+   45  clear
+   46  apt-get
+   47  apt-get install bluefish
+   48  sudo apt-get install bluefish
+   49  sudo apt-get remove bluefish
+   50  clear
+   51  apt-cache search bluefish*
+   52  apt-cache search gimp*
+   53  apt-cache policy gimp
+   54  apt-cache policy bluefish
+   55  clear
+   56  apt-cache search chrome
+   57  apt-cache policy chromium
+   58  apt-cache policy midori
+   59  cd ~/Downloads/
+   60  ls
+   61  sudo dpkg -i ./google-chrome-stable_current_amd.deb
+   62  ls
+   63  sudo dpkg -i ./google-chrome-stable_current_amd64.deb
+   64  google-chrome
+   65  sudo apt-get upgrade
+   66  trtrtetert
+   67  oeoeoeoeoeooeoeoeoe
+   68  sudo nano file
+   69  ls -l
+   70  sudo nano file
+   71  ls -l
+   72  sudo chown root:nick
+   73  ls -l
+   74  sudo chown root:nick file.txt
+   75  ls -l
+   76  sudo chmod 646 file.txt
+   77  ls -l
+   78  nano file.txt
+   79  sudo chmod 664 file.txt
+   80  ls -l
+   81  nano file.txt
+   82  sudo chown nick:nick file.txt
+   83  ls -l
+   84  chmod 644 file.txt
+   85  ls -l
+   86  sudo rm file
+   87  rm file.txt
+   88  ls -l
+   89  sudo mkdir mydir
+   90  ls -l
+   91  ls
+   92  cd mydir
+   93  ls
+   94  cd ../
+   95  sudo nano ./mydir/file.txt
+   96  ls
+   97  ls ./mdir
+   98  cd /mydir
+   99  cd ./mydir
+  100  ls
+  101  sudo nano ./mydir/file2.txt
+  102  ls
+  103  sudo nano file2.txt
+  104  ls
+  105  cd ../
+  106  sudo chown -R nick:nick ./mydir
+  107  ls -l
+  108  cd ./mydir
+  109  ls -s
+  110  ls -l
+  111  cd ../
+  112  sudo rm ./mydir
+  113  sudo rm -rf ./mydir
+  114  ls
+  115  cd ../
+  116  clear
+  117  sudo mkdir
+  118  sudo mkdir mydir
+  119  ls
+  120  cd ./mydir
+  121  touch file1.txt file2.txt file3.cpp file4.cpp
+  122  sudo chown nick:nick mydir
+  123  cd ../
+  124  sudo chown nick:nick ./mydir
+  125  ls -l
+  126  cd ./mydir
+  127  touch file1.txt file2.txt file3.cpp file4.cpp
+  128  ls
+  129  touch main.cpp
+  130  clear
+  131  cd ../
+  132  ls
+  133  rm mydir /*
+  134  rm -rf mydir
+  135  clear
+  136  ls
+  137  mkdir mydir
+  138  ls
+  139  cd ./mydir
+  140  touch file1.txt file2.txt file3.cpp file4.cpp file5.cpp file6.txt file7.txt
+  141  ls
+  142  rm /*.cpp
+  143  rm *.cpp
+  144  ls
+  145  rm *.txt
+  146  ls
+  147  mkdir dir1
+  148  mkdir dir2 dir3
+  149  ls
+  150  cd ./dir1
+  151  touch file1.txt file1.cpp
+  152  cd ~/mydir/dir2
+  153  touch file2.txt file2.cpp
+  154  cd ~/mydir/dir3
+  155  touch file3.txt file3.cpp
+  156  cd ~/mydir/dir1
+  157  ls
+  158  mv file1.cpp ~/mydir/dir2
+  159  mv file1.txt ~/mydir/dir2
+  160  cd../
+  161  cd ../
+  162  cd ./dir2
+  163  mv file2.txt ~/mydir/dir3
+  164  mv file2.cpp ~/mydir/dir3
+  165  cd ../
+  166  cd ./dir3
+  167  mv file4.txt ~/mydir/dir1
+  168  mv file3.txt ~/mydir/dir1
+  169  mv file3.cpp ~/mydir/dir1
+  170  ls
+  171  cd ~/mydir/dir1
+  172  ls
+  173  cd ../
+  174  sudo rm -rf ./mydir
+  175  ls
+  176  apt-get search python
+  177  apt-get policy python*
+  178  apt-get search python*
+  179  sudo apt-get search pyhton*
+  180  apt-search python*
+  181  apt-get --help
+  182  apt-cache search python*
+  183  clear
+  184  ls
+  185  mkdir ./newdirectory
+  186  ls
+  187  touch file.txt
+  188  ls
+  189  mv file.txt newdirectory/file.txt
+  190  ls
+  191  ls /newdirectory
+  192  ls ./newdirectory
+  193  mkdir ./myseconddirectory
+  194  cp newdirectory/file.txt myseconddirectory/file.txt
+  195  ls ./myseconddirectory
+  196  cp ./newdirectory/file.txt ./myseconddirectory/filePOOP.txt
+  197  ls ./myseconddirectory
+  198  cd newdirectory
+  199  ls
+  200  mv ./file.txt ./b.txt
+  201  ls
+  202  rm ./b.txt
+  203  ls
+  204  cd ../
+  205  rm -rf newdirectory
+  206  ls
+  207  ls myseconddirectory
+  208  mv myseconddirectory mydir
+  209  ls
+  210  rm mydir/*.txt
+  211  ls mydir
+  212  ls
+  213  ls ./mydir
+  214  touch ./mydir/poop.out
+  215  ls mydir
+  216  cd mydir
+  217  touch poop.php pee.php scat.php wat.php rapist.php help.txt me.txt out.txt of.txt here.txt
+  218  ls
+  219  find . -type f -name ".php"
+  220  find . -type f -name "*.php"
+  221  find . -type f -iname "o.*"
+  222  find /etc -type f -iname "*.conf"
+  223  clear
+  224  cd ../
+  225  cd mydir
+  226  ls -l
+  227  find . -type f -perm 0664
+  228  find . +1M
+  229  find . -100k
+  230  find . -size -100k
+  231  find . -size 100k
+  232  find . -size -100k
+  233  find . -type f -iname "*.php"
+  234  find . -type f -not -iname "*.php"
+  235  clear
+  236  cd ./etc/
+  237  cd ~
+  238  ls
+  239  find . -type f -iname "*.conf"
+  240  cd mydir
+  241  find . -type f -iname "*.conf"
+  242  find . -type f -name "*.conf"
+  243  cd ../
+  244  find . -type f -name "*.conf"
+  245  cd
+  246  find /etc/ -type f -name "*.conf"
+  247  cd /etc
+  248  find . -type f -iname "*.conf"
+  249  find . -maxdepth 1 -type f -iname "*.conf"
+  250  find . -maxdepth 2 -type f -iname "*.conf"
+  251  find . -maxdepth 1 -type f -iname "*.conf"
+  252  find . -type f -iname "*.conf" -size +10k
+  253  unity-tweak-tool
+  254  settings
+  255  cd ../
+  256  ls
+  257  cd ../
+  258  ls
+  259  cd ~
+  260  ls
+  261  ls ./mydir
+  262  find . -type f -size -10k -iname "*.php"
+  263  find . -type f -size -10k -iname "*.php" -exec grep -i -n "poop" {} +
+  264  ls > outfile.txt
+  265  nano outfile.txt
+  266  find -type f -size -10k > f.txt
+  267  nano f.txt
+  268  find -type f -size -10k | tee.txt
+  269  find -type f -size -10k | > tee.txt
+  270  ls
+  271  clear
+  272  ls
+  273  rm f.txt tee.txt outfile.txt
+  274  ls
+  275  top
+  276  ps aux
+  277  ps aux | google-chrome
+  278  ps aux | grep google-chrome
+  279  google-chrome
+  280  ps aux | grep google-chrome
+  281  pgrep google-chrome
+  282  ps aux | pgrep google-chrome
+  283  pgrep google-chrome
+  284  ps aux | pgrep google-chrome
+  285  ps aux | grep google-chrome
+  286  pgrep -f google-chrome
+  287  grep -f google-chrome
+  288  pgrep -f firefox
+  289  kill -9 18544
+  290  pgrep -f firefox
+  291  kill -9 18475
+  292  pgrep -f firefox
+  293  pgrep firefox
+  294  top
+  295  ps aux
+  296  pgrep firefox
+  297  kill all firefox
+  298  killall firefox
+  299  apt-cache policy elasticsearch
+  300  clear
+  301  ps aux
+  302  ps aux > aux.txt
+  303  ls
+  304  nano aux.txt
+  305  rm aux.txt
+  306  ls
+  307  clear
+  308  crontab -e
+  309  sudo apt-get install openjdk-8-jre
+  310  java-version
+  311  java -varsion
+  312  java -version
+  313  ./eclipe-inst
+  314  ./eclipse-inst
+  315  sh ./pycharm.sh
+  316  eclipse-inst
+  317  ls
+  318  sudo eclipse-inst
+  319  ./eclipse-inst
+  320  sudo install python3-pip
+  321  sudo apt-get install python3-distutils
+  322  sudo apt-get install python-setuptools
+  323  ps aux | grep pycharm-community
+  324  eclipse
+  325  ./eclipse-inst
+  326  sudo snap install pycharm-community --classic
+  327  pycharm-community
+  328  sudo apt install python3-pip
+  329  pycharm-community
+  330  cd ~/
+  331  clear
+  332  sudo apt-get install git git-extras
+  333  cd PycharmProjects
+  334  cd pi
+  335  ls
+  336  git init
+  337  git remote add origin https://github.com/Ranedor86/python-pi-example.git
+  338  git config --global user.name "Nick"
+  339  git config --global user.email "Ranedor@gmail.com"
+  340  git pull
+  341  git pull origin master
+  342  ls
+  343  git branch --set-upstream-to=origin/master
+  344  clear
+  345  git add -A
+  346  git commit -m "Updated readme, added main.py"
+  347  git push
+  348  git rm -r .idea
+  349  git add -a
+  350  git add -A
+  351  git commit -m "Removed .idea directory"
+  352  git push
+  353  git-ignore .idea/*
+  354  nano .gitignore
+  355  git-ignore .idea
+  356  git-ignore .idea/
+  357  git add -A
+  358  git commit -m "changed main.py"
+  359  git push
+  360  cd ../
+  361  mkdir pi2
+  362  cd ./pi2
+  363  git remote add origin https://github.com/Ranedor86/python-pi-example.git
+  364  git init
+  365  git remote add origin https://github.com/Ranedor86/python-pi-example.git
+  366  git pull
+  367  git pull origin master
+  368  git pull
+  369  git pull origin master
+  370  ls
+  371  nano main.py
+  372  git add -A
+  373  git push
+  374  git push origin master
+  375  cd ../
+  376  cd /pi
+  377  cd ./pi
+  378  cd ../
+  379  cd ./pi2
+  380  git commit -m "committed changes from pi2?"
+  381  git push origin master
+  382  cd ../
+  383  cd ./pi
+  384  git add -A
+  385  git commit -m "pushing changes to server because local is behind"
+  386  git push
+  387  git fetch origin master
+  388  git merge
+  389  nano main.py
+  390  git add -A
+  391  git commit "resolved merge conflict"
+  392  git merge
+  393  nano main.py
+  394  git merge
+  395  nano main.py
+  396  git merge --abort
+  397  nano main.py
+  398  git add -A
+  399  git commit "resolved merge conflict"
+  400  git commit -m "resolved merge conflict"
+  401  git push
+  402  git pull
+  403  nano main.py
+  404  git pull
+  405  git marge
+  406  git merge
+  407  nano main.py
+  408  cd ../pi2
+  409  nano main.py
+  410  cd ../pi
+  411  nano main.py
+  412  cd ../pi2
+  413  nano main.py
+  414  cd ../pi
+  415  git merge
+  416  git push
+  417  git pull
+  418  git rm main.py
+  419  git merge --abort
+  420  git rm main.py
+  421  git add -A
+  422  git commit -m "merge conflicts are dumb"
+  423  git push
+  424  git push origin master
+  425  git pull
+  426  git add -A
+  427  git commit -m "buttz"
+  428  git push
+  429  git add -A
+  430  git commit -m "New Branch"
+  431  git push origin Version0.1
+  432  git checkout master
+  433  git merge Version0.1 master
+  434  git push origin master
+  435  sudo apt-get install curl
+  436  curl https://install.meteor.com/ | sh
+  437  cd ~
+  438  cd Projects
+  439  meteor create todo
+  440  cd todo
+  441  ls
+  442  meteor
+  443  meteor add twbs:bootstrap
+  444  meteor add react kadira:react-layout kadira:flow-router
+  445  ls
+  446  meteor
+  447  cd ../
+  448  meteor create toto
+  449  cd ./todo
+  450  ls
+  451  cd client
+  452  ls
+  453  mv ./Components ~/Projects/toto
+  454  mv ./Home ~/Projects/toto/Home
+  455  cd ~/Projects/toto
+  456  meteor
+  457  clear
+  458  sudo apt-get install apache2 php5 mysql-server php5-common
+  459  apt-cache search php*
+  460  sudo apt-get install apache2 php7.2 mysql-server php5-common
+  461  sudo apt-get install apache2 php7.2 mysql-server php7.2-common
+  462  sudo systemctl start apache2
+  463  cd ~
+  464  sudo chown -R nick:nick /var/www
+  465  cd etc/apache2
+  466  cd /etc/apache2
+  467  sudo nano envvars
+  468  sudo systemctl restart apache2
+  469  sudo systemctl stop apache2
+  470  sudo systemctl start apache2
+  471  systemctl status apache2.service
+  472  sudo nano envvars
+  473  sudo systemctrl start apache2
+  474  sudo systemctl start apache2
+  475  cd /var/www/html
+  476  nano index.php
+  477  cd ~/Projects/toto
+  478  meteor
+  479  date
+  480  clear
+  481  date
+  482  cal
+  483  cal 2020
+  484  history
+  485  echo poopbox
+  486  exit
+  487  echo POOP GOES DOWN THE MOUNTAIN
+  488  echo POOP GOES DOWN THE MOUNTAIN n/t
+  489  echo POOP GOES DOWN THE MOUNTAIN n/
+  490  echo POOP GOES DOWN THE MOUNTAIN /n
+  491  history
+  492  pwd
+  493  ps aux
+  494  echo $PATH
+  495  which cal
+  496  which echo
+  497  which which
+  498  date
+  499  cal 1986
+  500  cal 02 1986
+  501  cal
+  502  date -u
+  503  date -cst
+  504  date --help
+  505  date --universal
+  506  Garden-Party poop
+  507  clear
+  508  cal -A 1 12 2017
+  509  cal -A 4 07
+  510  cal -A 4 07 2019
+  511  shutdown
+  512  time
+  513  time sys
+  514  time
+  515  date
+  516  history > history.txt
